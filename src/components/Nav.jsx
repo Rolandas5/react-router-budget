@@ -1,5 +1,6 @@
 import { Form, NavLink } from 'react-router-dom';
-import Logomark from "../components/Logomark";
+import Logomark from './Logomark';
+import './css-code/nav.css';
 
 const Nav = ({ userName }) => {
   const handleSubmit = (event) => {
@@ -16,7 +17,7 @@ const Nav = ({ userName }) => {
       </NavLink>
       <Form method="post" action="logout" onSubmit={handleSubmit}>
         <button type="submit" className="btn btn--warning">
-          <span>Delete user</span>{' '}
+          <span className="btn">Delete user</span>{' '}
           <svg
             stroke="currentColor"
             fill="currentColor"

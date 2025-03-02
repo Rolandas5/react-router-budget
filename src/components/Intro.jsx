@@ -1,12 +1,14 @@
 import { Form } from 'react-router-dom';
 import illustration from '../assets/illustration.jpg';
+import './css-code/intro.css';
 
 const Intro = () => {
   return (
     <div className="intro">
       <div>
         <h1>
-          Take Control of <span className="accent">Your Money</span>
+          Take Control of <br />
+          <span className="accent">Your Money</span>
         </h1>
         <p>
           Personal budgeting is the secret to financial freedom. Start your

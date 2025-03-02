@@ -1,0 +1,72 @@
+/* Bendri stiliai */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #00a7b6;
+}
+
+nav a:hover {
+  color: #00a7b6;
+}
+
+nav span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+nav svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+/* Forma */
+form {
+  display: flex;
+  align-items: center;
+}
+
+/* Mygtukas */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #00a7b6;
+  color: white;
+  font-size: 0.9rem;
+  /* width: 40%; */
+  padding: 12px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* box-shadow: 0 4px 8px rgba(12, 144, 146, 0.967); Šešėlis mygtukui */
+}
+
+.btn:hover {
+  background-color: #d32626; /* Tamsesnė raudona spalva hover efektui */
+  transform: translateY(-2px); /* Šiek tiek pakeliamas efektas */
+}
+
+.btn:active {
+  background-color: #b71c1c; /* Dar tamsesnė raudona paspaudus */
+  transform: translateY(0); /* Grįžta į pradinę poziciją */
+}
+
+/* SVG piktograma */
+.btn svg {
+  width: 18px;
+  height: 18px;
+}

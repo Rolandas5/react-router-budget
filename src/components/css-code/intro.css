@@ -1,0 +1,92 @@
+/* Bendri stiliai */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f6fafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Intro sekcija */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.intro div {
+  max-width: 500px;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro .accent {
+  color: #00a7b6;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Forma */
+.intro form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.intro input {
+  width: 60%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.intro input:focus {
+  border-color: #00a7b6;
+  box-shadow: 0 0 5px rgba(0, 167, 182, 0.5);
+}
+
+/* Mygtukas */
+.btn {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 8px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Iliustracija */
+.intro img {
+  max-width: 500px;
+  height: auto;
+}
